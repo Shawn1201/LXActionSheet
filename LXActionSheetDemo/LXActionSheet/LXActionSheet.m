@@ -18,7 +18,7 @@
 #define BUTTON_INTERVAL_HEIGHT                  20
 #define BUTTON_HEIGHT                           40
 #define BUTTON_INTERVAL_WIDTH                   30
-#define BUTTON_WIDTH                            260
+#define BUTTON_WIDTH                            [UIScreen mainScreen].bounds.size.width - BUTTON_INTERVAL_WIDTH*2
 #define BUTTONTITLE_FONT                        [UIFont fontWithName:@"HelveticaNeue-Bold" size:18]
 #define BUTTON_BORDER_WIDTH                     0.5f
 #define BUTTON_BORDER_COLOR                     [UIColor colorWithRed:0.0f green:0.0f blue:0.0f alpha:0.8].CGColor
