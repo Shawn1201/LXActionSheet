@@ -24,6 +24,7 @@
         self.title = @"LXActionSheetDemo";
     }
     return self;
+    
 }
 
 - (void)viewDidLoad
